@@ -45,7 +45,6 @@ Unplug serial USB cable from PC.
 Type "exit" on PC.
 Power on ROCK PI 4B board.
 ssh user@192.168.86.xxx
-ssh linaro@192.168.86.xxx
 vi nosleep.sh ( add following line to disable sleep feature )
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 ./nosleep.sh
